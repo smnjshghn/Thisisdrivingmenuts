@@ -937,7 +937,7 @@ chart = Highcharts.chart("container", {
   },
   chart: {
     height: "100%",
-    backgroundColor: "#333333", // Set background color to dark gray
+    backgroundColor: "#171717", // Set background color to dark gray
     events: {
       load: function() {
         // Add scroll event listener after chart loads
