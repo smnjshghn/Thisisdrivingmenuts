@@ -4,6 +4,7 @@ let data = [
     id: "Feelings",
     parent: "",
     name: "Feelings",
+    color:"#191919"
   },
 
   // Level 1 - Main emotions
@@ -902,18 +903,6 @@ Highcharts.setOptions({
 });
 
 let selectedPath = ''; // Variable to store the current path
-
-// // Get API key and Database ID from URL parameters
-// function getConfigFromUrl() {
-//     const urlParams = new URLSearchParams(window.location.search);
-//     return {
-//         NOTION_API_KEY: urlParams.get('key'),
-//         NOTION_DATABASE_ID: urlParams.get('db')
-//     };
-// }
-
-// Use the config from URL
-// const config = getConfigFromUrl();
 
 // Add rotation tracking variables
 let currentRotation = 0;
