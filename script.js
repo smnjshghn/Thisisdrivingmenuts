@@ -951,12 +951,11 @@ chart = Highcharts.chart("container", {
   },
 
   title: {
-    text: "The Feelings Wheel"
+    text: null
   },
-  // subtitle: {
-  //   text:
-  //     'Source <href="https://blog.calm.com/blog/the-feelings-wheel">Calm</a>'
-  // },
+  subtitle: {
+    text: null
+  },
   //   accessibility: {
   //   typeDescription:
   //     "Sunburst chart with three levels to display the feelings wheel of happiness. The first level shows the word happy. The next level displays close feelings to the word happy such as content and optimistic, where the third level displays more general happiness feelings, such as free, joyful, successful."
@@ -964,6 +963,8 @@ chart = Highcharts.chart("container", {
   series: [
     {
       type: "sunburst",
+      height: null, // Allow it to fill the container
+      width: null, // Allow it to fill the container
       data: data,
       allowDrillToNode: true,
       cursor: "pointer",

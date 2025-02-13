@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Emotion Wheel</title>
+    <!-- <title>Emotion Wheel</title> -->
     <meta http-equiv="Content-Security-Policy" content="
         default-src 'self' https://*.netlify.app;
         script-src 'self' 'unsafe-inline' https://code.highcharts.com https://*.netlify.app;
@@ -14,12 +14,14 @@
     <script src="https://code.highcharts.com/modules/accessibility.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <style>
+        body {
+            margin: 0; /* Remove default margin */
+            overflow: hidden; /* Prevent scrolling */
+        }
         #container {
-            min-width: 310px;
-            max-width: 800px;
-            height: 800px;
-            margin: 0 auto;
-            font-family: 'Lato', sans-serif;
+            width: 100vw; /* Full width of the viewport */
+            height: 100vh; /* Full height of the viewport */
+            background-color: #191919; /* Optional: Set background color */
         }
     </style>
     <div id="container"></div>
