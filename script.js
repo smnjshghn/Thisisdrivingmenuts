@@ -947,14 +947,12 @@ chart = Highcharts.chart("container", {
         // Clean up event listener when chart is destroyed
         window.removeEventListener('wheel', handleWheel);
       }
-    },  title: {
-      text: null // Set title to null to remove it
     }
   },
 
-  // title: {
-  //   text: "The Feelings Wheel"
-  // },
+  title: {
+    text: "The Feelings Wheel"
+  },
   // subtitle: {
   //   text:
   //     'Source <href="https://blog.calm.com/blog/the-feelings-wheel">Calm</a>'
