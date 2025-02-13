@@ -9,43 +9,43 @@ let data = [
   // Level 1 - Main emotions
   {
     id: "Fearful",
-    parent: "",
+    parent: "Feelings",
     name: "Fearful",
     color: "#FADF99"
   },
   {
     id: "Angry",
-    parent: "",
+    parent: "Feelings",
     name: "Angry",
     color: "#F09595"
   },
   {
     id: "Disgusted",
-    parent: "",
+    parent: "Feelings",
     name: "Disgusted",
     color: "#8F8F8F"
   },
   {
     id: "Sad",
-    parent: "",
+    parent: "Feelings",
     name: "Sad",
     color: "#98BDDE"
   },
   {
     id: "Happy",
-    parent: "",
+    parent: "Feelings",
     name: "Happy",
     color: "#FFFE9E"
   },
   {
     id: "Surprised",
-    parent: "",
+    parent: "Feelings",
     name: "Surprised",
     color: "#B8A3CE"
   },
   {
     id: "Bad",
-    parent: "",
+    parent: "Feelings",
     name: "Bad",
     color: "#9FD7B1"
   },
