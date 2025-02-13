@@ -947,6 +947,8 @@ chart = Highcharts.chart("container", {
         // Clean up event listener when chart is destroyed
         window.removeEventListener('wheel', handleWheel);
       }
+    },  title: {
+      text: null // Set title to null to remove it
     }
   },
 
