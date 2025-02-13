@@ -1,11 +1,10 @@
 let data = [
-  // // Root
-  // {
-  //   id: "Feelings",
-  //   parent: "",
-  //   name: "Feelings",
-  //   color: "#333333"
-  // },
+  // Root
+  {
+    id: "Feelings",
+    parent: "",
+    name: "Feelings",
+  },
 
   // Level 1 - Main emotions
   {
